@@ -1,6 +1,6 @@
 ---
 title: "Análisis de Competidores"
-version: "0.1"
+version: "0.2"
 date: "2026-05-19"
 audience: "equipo interno, ventas"
 status: "Draft"
@@ -8,68 +8,51 @@ status: "Draft"
 
 # Análisis de Competidores
 
-> Mapeo de competencia directa e indirecta. Los actores listados acá fueron identificados en la investigación inicial de mercado. Se actualiza cada vez que aparece uno nuevo o cambia algo material en uno existente.
+> Mapeo de competencia directa e indirecta en Uruguay. Se actualiza cada vez que aparece uno nuevo o cambia algo material en uno existente.
 
 ## Resumen ejecutivo
 
-El espacio "IA para abogados en Argentina" tiene actores tanto locales como internacionales. **Todos los identificados venden un producto cerrado** (su plataforma + su IA + sus datos). Ninguno se posiciona como "preparamos tus archivos para que uses la IA que vos quieras". Ese es nuestro hueco.
+El espacio "IA para abogados en Uruguay" tiene menos actores que mercados más grandes, pero ya hay tracción real. **The Legal Tool** (ex UruguAI Legal) es el líder local con 3.000+ usuarios y convenio con el Colegio de Abogados. **CADE** es el incumbente tradicional sin IA. **Thomson Reuters La Ley Uruguay** juega en el segmento enterprise. **Ninguno se posiciona como "preparamos tus archivos para que uses la IA que vos quieras".** Ese es nuestro hueco.
 
 ## Matriz de competencia
 
 | Competidor | Origen | Modelo | Target | Diferenciación que dicen tener |
 |---|---|---|---|---|
-| Argus Legal | Argentina | Producto SaaS | Abogados litigantes | Entrenado con SAIJ + CSJN, generación de escritos |
-| ArchivosYa | Argentina | Producto SaaS | Profesionales del derecho | Asistentes por fuero, buscador jurisprudencia |
-| LEXIUS | Argentina | Producto SaaS | Abogados | Multimodal: video, audio, transcripciones |
-| CoCounsel Core | Internacional (TR) | Producto enterprise | Estudios medianos y grandes | Localización argentina, Thomson Reuters |
-| elDial.Móvil | Argentina | Producto via WhatsApp | Abogados | Base de 1M+ documentos, interfaz WhatsApp |
+| The Legal Tool | Uruguay | Producto SaaS | Abogados y escribanos | Búsqueda jurisprudencia con lenguaje natural, convenio con CAU |
+| CADE | Uruguay | Base de datos por suscripción | Profesionales del derecho, contadores | 150.000+ docs, la más completa de Uruguay |
+| Thomson Reuters La Ley UY | Internacional | Producto enterprise | Estudios medianos y grandes | 248.000+ documentos, marca consolidada |
 | Harvey AI | Internacional | Producto enterprise | Big Law internacional | LLM custom, top firms |
 | Ariel | Colombia | Producto SaaS | Sector público y privado | 1,2M+ documentos del derecho colombiano |
-| Cimiento (nosotros) | Argentina | **Servicio + producto** | **Profesionales chicos a medianos** | **Agnóstico de modelo, cliente dueño de su info** |
+| Cimiento (nosotros) | Uruguay | **Servicio + producto** | **Profesionales chicos a medianos** | **Agnóstico de modelo, cliente dueño de su info** |
 
 ## Competidores directos detallados
 
-### Argus Legal — `arguslegal.ai`
+### The Legal Tool (ex UruguAI Legal) — `uruguai-legal.com`
 
-- **Qué hacen**: IA para abogados argentinos, especializada en litigación. El usuario sube la demanda y recibe el escrito profesional con jurisprudencia citada.
-- **Datos públicos**: +750 estudios usándolo, planes desde ARS 149.000/mes.
-- **Diferenciación que pregonan**: "Sin IA genérica — entrenada exclusivamente para abogados argentinos", base de +260.000 fallos certificados de SAIJ y CSJN.
-- **Fuerza**: tracción real, especialización fuerte.
-- **Debilidad**: producto cerrado, el cliente queda atado, no toca los archivos propios del estudio.
-- **Cómo nos diferenciamos**: Argus genera escritos a partir de su base. Nosotros hacemos que el abogado pueda preguntarle a cualquier IA sobre sus propios casos. Productos complementarios más que competidores directos, en realidad.
+- **Qué hacen**: plataforma de IA para el sector jurídico uruguayo. Búsqueda de jurisprudencia con lenguaje natural, transcripción de reuniones, gestión de casos, repositorio de documentos, y redacción contextualizada (genera documentos asociados a jurisprudencia).
+- **Fundadores**: Andrés Tiscornia (abogado), Mateo Sciarra y Juan Martín Gallo (ingenieros). Surgido de la Universidad ORT.
+- **Datos públicos**: +3.000 usuarios, planes desde USD 20 hasta USD 50/mes. Convenio con el Colegio de Abogados del Uruguay (CAU) y otras organizaciones. Versión gratuita disponible.
+- **Diferenciación que pregonan**: "Entrenada con regulación y jurisprudencia uruguaya", búsqueda semántica vs. palabras clave.
+- **Expansión**: planean abrir a Argentina, Chile y México.
+- **Fuerza**: tracción real y creciente, relación institucional con el CAU, precio accesible, equipo local que entiende el mercado.
+- **Debilidad**: producto cerrado, el cliente queda atado a su plataforma, no toca los archivos propios del estudio. Su valor está en la búsqueda sobre SU corpus, no sobre los documentos del cliente.
+- **Cómo nos diferenciamos**: The Legal Tool busca jurisprudencia en su base. Nosotros hacemos que el profesional pueda preguntarle a cualquier IA sobre sus propios casos y archivos. Productos complementarios más que competidores directos. Un cliente con archivos bien preparados por Cimiento usa mejor The Legal Tool también.
 
-### ArchivosYa — `archivosya.com`
+### CADE — `cade.com.uy`
 
-- **Qué hacen**: Asistentes jurídicos entrenados por fuero, buscador de jurisprudencia, herramientas auxiliares (redactar relación de causa, comparar documentos, sumarios).
-- **Diferenciación que pregonan**: "Datos curados, verificables, actualizados a diario", trabajan sobre OpenAI con configuración legal.
-- **Atención**: el nombre es muy parecido a lo que naturalmente pensaríamos como nombre nuestro. Refuerza la decisión de elegir un nombre claramente distinto.
-- **Fuerza**: oferta amplia, casos públicos (Municipalidad de Villa María).
-- **Debilidad**: depende de OpenAI por debajo, no es agnóstico.
-- **Cómo nos diferenciamos**: ellos venden una herramienta más; nosotros vendemos infraestructura sobre la información del cliente.
+- **Qué hacen**: la base de datos jurídica privada más grande de Uruguay. 150.000+ documentos full-text con referencias cruzadas: jurisprudencia, legislación y doctrina. Módulos especializados (jurídico, notarial).
+- **Diferenciación que pregonan**: completitud y actualización diaria, conferencias anuales para suscriptores, publicación "Judicatura".
+- **Fuerza**: incumbente consolidado, contenido curado, confianza del mercado.
+- **Debilidad**: herramienta tradicional (búsqueda por palabras clave), sin IA, sin integración con archivos del cliente, interfaz legacy.
+- **Cómo nos diferenciamos**: CADE es una base de datos pasiva; nosotros preparamos los archivos del cliente para consulta activa con IA. Complementarios, no competidores.
 
-### LEXIUS Argentina — `lexius.io/ar`
+### Thomson Reuters La Ley Uruguay — `laleyuruguay.com`
 
-- **Qué hacen**: plataforma multi-feature: chat sobre sentencias, generación de páginas visuales, video podcast con narración de IA, "canciones con IA" para estudio.
-- **Diferenciación que pregonan**: experiencia multimodal y educativa.
-- **Fuerza**: producto innovador, marketing fuerte.
-- **Debilidad**: se siente más herramienta de divulgación/educación que de práctica profesional pesada.
-- **Cómo nos diferenciamos**: ellos son creatividad; nosotros somos infraestructura.
-
-### CoCounsel Core (Thomson Reuters) — internacional
-
-- **Qué hacen**: producto enterprise de Thomson Reuters, capacidades de buscar, revisar, resumir, línea de tiempo sobre documentación legal.
-- **Estado**: recién lanzado en Argentina en español. Primer país hispano en recibir el producto.
-- **Diferenciación que pregonan**: respaldo de Thomson Reuters, integración con La Ley.
-- **Fuerza**: marca consolidada, contenido propio (La Ley con 90 años).
-- **Debilidad**: target enterprise. Caro y complejo para el profesional chico.
+- **Qué hacen**: base de datos jurídica con 48.000+ documentos de legislación (desde 1970) y 200.000+ de jurisprudencia y doctrina (desde 1940). Contenido premium.
+- **Diferenciación que pregonan**: respaldo de Thomson Reuters, profundidad histórica, contenido exclusivo.
+- **Fuerza**: marca consolidada globalmente, contenido propio.
+- **Debilidad**: target enterprise. Caro y complejo para el profesional chico. No tiene IA integrada para Uruguay (CoCounsel no está localizado para UY).
 - **Cómo nos diferenciamos**: ellos juegan arriba; nosotros abajo. No competimos directamente, pero validamos que el mercado existe.
-
-### elDial.Móvil — `eldial.com/ia`
-
-- **Qué hacen**: asistente legal por WhatsApp con base de +1M de documentos jurídicos interrelacionados, actualizados diariamente.
-- **Fuerza**: interfaz que el abogado ya usa (WhatsApp), base masiva de contenidos.
-- **Debilidad**: foco en búsqueda/consulta sobre la base de elDial, no integración con archivos del estudio.
-- **Cómo nos diferenciamos**: ellos = consulta sobre su corpus; nosotros = consulta sobre el corpus del cliente + fuentes oficiales.
 
 ### Harvey AI — internacional
 
@@ -78,7 +61,7 @@ El espacio "IA para abogados en Argentina" tiene actores tanto locales como inte
 
 ### Ariel — Colombia
 
-- **Qué hacen**: equivalente colombiano de los competidores argentinos. 1,2M+ documentos legales colombianos.
+- **Qué hacen**: equivalente colombiano. 1,2M+ documentos legales colombianos.
 - **Relevancia**: precedente de cómo se ve el mercado en otro país de LATAM. Útil para pensar expansión futura.
 
 ## Competidores indirectos
@@ -98,14 +81,24 @@ Empresas que ofrecen "transformación digital" o "implementación de IA" sin foc
 - **Por qué pierden**: no conocen el dominio (no entienden el flujo de un estudio jurídico), terminan vendiéndole al cliente una solución sobredimensionada.
 - **Cómo nos diferenciamos**: especialización vertical + tamaño acotado de la oferta.
 
+## Competidores regionales (no operan en UY pero útiles como referencia)
+
+| Competidor | País | Qué hacen | Por qué importa |
+|---|---|---|---|
+| Argus Legal | Argentina | IA para litigación, +750 estudios, +260.000 fallos SAIJ/CSJN | Referencia de pricing y tracción en mercado similar |
+| ArchivosYa | Argentina | Asistentes por fuero, buscador jurisprudencia sobre OpenAI | El nombre es descriptivo de lo que hacemos, refuerza usar nombre propio |
+| LEXIUS | Argentina | Multimodal: video, audio, transcripciones legales | Más herramienta de divulgación que de práctica pesada |
+| CoCounsel Core (TR) | Internacional | Producto enterprise, recién lanzado en Argentina en español | Confirma que LATAM está siendo tomada en serio por los grandes |
+
 ## Implicancias para nuestra estrategia
 
-1. **El posicionamiento agnóstico es realmente único** en este mercado y debe ser el primer mensaje en cualquier material comercial.
-2. **El nombre "ArchivosYa" ya existe** — ratifica usar Cimiento (o alguno de los otros nombres propuestos) en lugar de algo descriptivo.
-3. **No competimos con Thomson Reuters** ni con Harvey. Si el cliente está mirando esos productos, no es nuestro cliente todavía.
+1. **El posicionamiento agnóstico es realmente único** en el mercado uruguayo y debe ser el primer mensaje en cualquier material comercial.
+2. **The Legal Tool es el actor a observar** — tienen tracción, institucionalidad (convenio con CAU), y precio accesible. Pero su valor está en búsqueda sobre su corpus, no en preparar los archivos del cliente.
+3. **No competimos con Thomson Reuters ni con CADE** en contenido. Nosotros no vendemos acceso a bases de datos; vendemos infraestructura sobre los datos del cliente.
 4. **El competidor real es la inercia y ChatGPT a pelo.** El pitch tiene que mostrar la diferencia con ejemplos concretos del propio cliente.
-5. **Argus, ArchivosYa, LEXIUS pueden ser partners, no enemigos.** Un cliente con archivos bien preparados los usa mejor también. Vale la pena explorar acuerdos.
+5. **The Legal Tool y CADE pueden ser partners, no enemigos.** Un cliente con archivos bien preparados los usa mejor también. Vale la pena explorar acuerdos.
+6. **El mercado uruguayo es más chico pero más accesible.** ~7.000 abogados, concentrados en Montevideo. Se puede conocer al mercado entero más rápido.
 
 ## Última actualización
 
-2026-05-19 — Mapeo inicial. Próxima actualización tras Fase 0 cuando hablemos con clientes y obtengamos información de primera mano sobre qué herramientas usan y por qué.
+2026-05-19 — Mapeo inicial para Uruguay. Próxima actualización tras Fase 0 cuando hablemos con clientes y obtengamos información de primera mano sobre qué herramientas usan y por qué.

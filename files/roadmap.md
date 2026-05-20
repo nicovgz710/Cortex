@@ -65,20 +65,20 @@ Plan de cuatro fases. Cada fase tiene un objetivo claro y un criterio de salida 
 **Objetivo**: agregar la capa 2 del producto y convertir clientes one-shot en suscripción.
 
 **Actividades**:
-- Construir el ingestor de SAIJ y CSJN para abogados.
-- Construir el ingestor de RG/normativa de AFIP para contadores.
+- Construir el ingestor de IMPO y BJN (Base de Jurisprudencia Nacional) para abogados.
+- Construir el ingestor de normativa de DGI para contadores.
 - Definir frecuencia de actualización por fuente y mecanismo de notificación al cliente cuando hay novedades relevantes.
 - Diseñar el modelo de suscripción mensual.
 
 **Criterios de salida**:
 - Al menos el 50% de los clientes de Fase 1 pasaron a suscripción mensual.
 - Sistema de actualización corriendo sin intervención manual.
-- Política de control de calidad de las fuentes (¿qué hacemos si SAIJ falla o cambia su formato?).
+- Política de control de calidad de las fuentes (¿qué hacemos si IMPO o BJN falla o cambia su formato?).
 
 **Entregables tangibles**:
-- Biblioteca legal AR v1.0.
-- Biblioteca tributaria AR v1.0.
-- Cliente puede preguntar "qué dice la última RG sobre X" y obtener respuesta con cita.
+- Biblioteca legal UY v1.0 (IMPO + BJN).
+- Biblioteca tributaria UY v1.0 (DGI).
+- Cliente puede preguntar "qué dice la última resolución de DGI sobre X" y obtener respuesta con cita.
 
 ---
 
@@ -104,7 +104,7 @@ Plan de cuatro fases. Cada fase tiene un objetivo claro y un criterio de salida 
 Posibles direcciones, sin orden ni prioridad todavía:
 
 - **Nuevas verticales**: escribanos, médicos, arquitectos.
-- **Internacionalización**: México y Colombia tienen mercados grandes y necesidades similares.
+- **Internacionalización**: Argentina, México y Colombia tienen mercados grandes y necesidades similares.
 - **API / producto self-service**: en algún momento puede tener sentido que el cliente pueda hacer parte del trabajo solo.
 - **Sello de calidad**: certificar estudios "Cimiento Ready" como diferencial para el cliente final del estudio.
 

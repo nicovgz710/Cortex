@@ -16,7 +16,7 @@ status: "Approved"
 
 Al definir el posicionamiento del producto, hay una decisión bisagra: ¿Cimiento se acopla a un proveedor de IA específico (OpenAI, Anthropic, Google) o se mantiene agnóstico, dejándole al cliente elegir y poder cambiar el modelo subyacente?
 
-Los competidores directos del mercado argentino (Argus Legal, ArchivosYa, LEXIUS) están todos atados a un proveedor — la mayoría a OpenAI por debajo. Por otro lado, el ritmo de cambio entre modelos es muy alto: lo que es el mejor modelo hoy no necesariamente lo será en seis meses, y el cliente que se ata a un proveedor termina con costo de migración alto.
+El competidor directo en el mercado uruguayo (The Legal Tool / ex UruguAI Legal) y los competidores regionales (Argus Legal, ArchivosYa, LEXIUS en Argentina) están todos atados a un stack específico. Por otro lado, el ritmo de cambio entre modelos es muy alto: lo que es el mejor modelo hoy no necesariamente lo será en seis meses, y el cliente que se ata a un proveedor termina con costo de migración alto.
 
 La decisión define el discurso comercial, la arquitectura técnica y el contrato con el cliente.
 

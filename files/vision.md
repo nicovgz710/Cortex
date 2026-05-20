@@ -37,10 +37,10 @@ Auditamos los archivos del cliente, definimos una taxonomía adecuada a su prác
 ### Capa 2 — Biblioteca de fuentes oficiales
 
 Integramos al sistema del cliente las fuentes públicas que necesita para su práctica:
-- **Abogados argentinos**: Constitución Nacional, Código Civil y Comercial, jurisprudencia de SAIJ y CSJN, Boletín Oficial.
-- **Contadores**: normativa de AFIP/ARCA, resoluciones generales vigentes, CFDI/factura electrónica.
+- **Abogados uruguayos**: Constitución, Códigos, jurisprudencia de la BJN (Base de Jurisprudencia Nacional del Poder Judicial), normativa completa de IMPO (desde 1830), Diario Oficial.
+- **Contadores**: normativa de DGI (Dirección General Impositiva), resoluciones vigentes, CFE (Comprobantes Fiscales Electrónicos).
 
-Mantenemos esas fuentes actualizadas automáticamente. El cliente puede preguntarle a su IA "qué dice la última RG sobre X" sin tener que ir a buscarla.
+Mantenemos esas fuentes actualizadas automáticamente. El cliente puede preguntarle a su IA "qué dice la última resolución de DGI sobre X" sin tener que ir a buscarla.
 
 ### Capa 3 — Plantillas y workflows
 
@@ -48,7 +48,7 @@ Construimos plantillas inteligentes para los documentos repetitivos de cada prof
 
 ## Audiencia
 
-**Primario**: profesionales independientes y estudios chicos a medianos (2–20 personas) en Argentina, en estas verticales por orden de prioridad:
+**Primario**: profesionales independientes y estudios chicos a medianos (2–20 personas) en Uruguay, en estas verticales por orden de prioridad:
 
 1. **Abogados** — sector con mayor presión competitiva por IA, ROI más medible.
 2. **Contadores** — alta densidad de documentos repetitivos (facturas, balances).
@@ -77,7 +77,7 @@ Hay competencia activa en el espacio (ver `research/competidores.md`). Cimiento 
 
 - Los modelos llegaron a un nivel de calidad donde el cuello de botella ya no es el modelo, es la información que le das.
 - La adopción profesional pasa de "curiosidad" a "necesidad competitiva": el abogado que no usa IA pierde frente al que sí.
-- En Argentina, Thomson Reuters acaba de lanzar CoCounsel localizado, lo que marca que el mercado profesional está listo, pero también que las opciones cerradas top-of-market van a costar caro. Hueco abierto para una alternativa más accesible y más flexible.
+- En Uruguay, The Legal Tool (ex UruguAI Legal) ya tiene 3.000+ usuarios y convenio con el Colegio de Abogados, lo que confirma que el mercado profesional está listo. Pero su modelo es producto cerrado — hueco abierto para una alternativa agnóstica, más flexible, y centrada en los archivos propios del cliente.
 
 ## Por qué nosotros
 
