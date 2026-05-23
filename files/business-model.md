@@ -38,7 +38,7 @@ Servicio de auditoría + ordenamiento + ingesta inicial. Se cobra una sola vez.
 | Estudio chico (2–5 personas) | 5.000–20.000 archivos | USD 1.500–4.000 |
 | Estudio mediano (6–20 personas) | 20.000–100.000 archivos | USD 4.000–10.000 |
 
-**Razonamiento**: la consultoría de IA para SMEs en mercados maduros se cobra entre USD 950 y USD 1.500 por día. Un setup razonable son 3–10 días de trabajo. Hay que ajustar para mercado argentino, pero el rango se sostiene si se cobra en dólares.
+**Razonamiento**: la consultoría de IA para SMEs en mercados maduros se cobra entre USD 950 y USD 1.500 por día. Un setup razonable son 3–10 días de trabajo. Uruguay tiene economía bimonetaria (UYU/USD), cobrar en dólares es natural y el rango se sostiene.
 
 ### 2. Suscripción mensual
 
@@ -52,7 +52,7 @@ Mantenimiento de la biblioteca de fuentes oficiales, soporte para consultas, act
 | **Profesional** | + Ingesta incremental + plantillas | USD 200–350 |
 | **Estudio** | + Multi-usuario + soporte prioritario + workflows custom | USD 400–800 |
 
-**Referencia de mercado**: Argus Legal en Argentina arranca en ARS 149.000/mes (~USD 130 al cambio actual). Estamos en el orden correcto.
+**Referencia de mercado**: The Legal Tool en Uruguay cobra USD 20–50/mes. CADE cobra suscripción mensual (precio no público). Nuestro plan incluye más valor (preparación de archivos propios + fuentes oficiales + soporte), lo que justifica un precio superior.
 
 ### 3. Servicios adicionales (proyecto a proyecto)
 
@@ -71,7 +71,7 @@ Mantenimiento de la biblioteca de fuentes oficiales, soporte para consultas, act
 ### Costos fijos
 
 - **Salarios del equipo fundador** (en Fase 0 y 1, probablemente cero o mínimos).
-- **Infraestructura compartida** (vector DB, scrapers de SAIJ/AFIP). USD 100–300 al mes hasta cierta escala.
+- **Infraestructura compartida** (vector DB, scrapers de IMPO/BJN/DGI). USD 100–300 al mes hasta cierta escala.
 - **Herramientas internas** (Notion/Linear, GitHub, dominio, mail). USD 50–100 al mes.
 
 ### Hipótesis de margen
@@ -94,19 +94,19 @@ Desde el primer cliente:
 
 **Fase 0**: red personal directa. El amigo abogado nos presenta a colegas. Cero costo de adquisición, validación cualitativa.
 
-**Fase 1**: contenido + boca a boca. Casos de estudio publicados (con permiso), presencia en LinkedIn, charlas en colegios de abogados y consejos profesionales.
+**Fase 1**: contenido + boca a boca. Casos de estudio publicados (con permiso), presencia en LinkedIn, charlas en el CAU (Colegio de Abogados del Uruguay), CCEAU (Colegio de Contadores) y AEU (Asociación de Escribanos).
 
 **Fase 2**: paid + partnerships. Cuando haya unit economics validados, considerar inversión en adquisición. Partnerships con colegios profesionales como canal preferente.
 
 ## Decisiones pendientes (van a ADR cuando se tomen)
 
-- ¿Cobramos en pesos o en dólares? (probablemente USD con pago en pesos al tipo de cambio del día).
+- ¿Cobramos en pesos uruguayos o en dólares? (probablemente USD — economía bimonetaria, natural para servicios profesionales).
 - ¿Ofrecemos plan freemium o solo paid? (probablemente solo paid, pero con consulta inicial gratuita).
 - ¿Modelo de revenue share con quien nos refiera clientes?
-- ¿Trabajamos con clientes internacionales desde el día 1 o solo Argentina inicialmente?
+- ¿Expansión regional (Argentina, Chile) desde qué fase?
 
 ## Lo que este modelo NO contempla todavía
 
 - Equity / repartición entre socios fundadores. Documento separado cuando los socios estén formalmente incorporados.
-- Estructura legal (monotributo, SAS, otra). Recomendable consultar con contador en Fase 1.
+- Estructura legal (unipersonal, SAS, otra). Recomendable consultar con contador en Fase 1.
 - Estrategia de salida o financiamiento externo. No relevante en este horizonte.

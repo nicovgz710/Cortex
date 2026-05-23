@@ -11,7 +11,7 @@ status: "Draft"
 
 ## ¿Qué es esto?
 
-Cimiento es un servicio (con producto en construcción) que toma los archivos dispersos y desordenados de un profesional — abogado, contador, escribano — y los deja listos para que una IA los consulte de forma confiable. No vendemos otra IA: ordenamos la información del cliente para que funcione con la IA que él elija, hoy y mañana.
+Cimiento es un servicio (con producto en construcción) que toma los archivos dispersos y desordenados de un profesional — abogado, contador, escribano — y los deja listos para que una IA los consulte de forma confiable. No vendemos otra IA: ordenamos la información del cliente para que funcione con la IA que él elija, hoy y mañana. Mercado inicial: Uruguay.
 
 Este repositorio es la base de conocimiento del proyecto. Acá vive la visión, el roadmap, la investigación de mercado, las decisiones estratégicas, y más adelante también la metodología (playbooks), las plantillas y el código de las herramientas.
 
@@ -37,7 +37,7 @@ Más adelante se sumarán:
 - `playbooks/` — la metodología propia (nuestro principal activo de IP).
 - `templates/` — estructuras de carpetas tipo, prompts, contratos modelo.
 - `tools/` — código de automatización (OCR, indexado, validación).
-- `knowledge-base/` — fuentes oficiales curadas (SAIJ, CSJN, AFIP).
+- `knowledge-base/` — fuentes oficiales curadas (IMPO, BJN, DGI).
 - `sales/` y `brand/` — material comercial y de identidad.
 
 ## Cómo navegar la documentación
